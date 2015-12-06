@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEDDC5111C14FFF3005C664E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDDC5101C14FFF3005C664E /* AppDelegate.swift */; };
+		FEDDC5131C14FFF3005C664E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDDC5121C14FFF3005C664E /* ViewController.swift */; };
+		FEDDC5161C14FFF3005C664E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDDC5141C14FFF3005C664E /* Main.storyboard */; };
+		FEDDC5181C14FFF3005C664E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDDC5171C14FFF3005C664E /* Images.xcassets */; };
+		FEDDC51B1C14FFF3005C664E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDDC5191C14FFF3005C664E /* LaunchScreen.xib */; };
+		FEDDC5271C14FFF3005C664E /* codepath_googleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDDC5261C14FFF3005C664E /* codepath_googleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEDDC5211C14FFF3005C664E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEDDC5031C14FFF3005C664E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEDDC50A1C14FFF3005C664E;
+			remoteInfo = "codepath-google";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEDDC50B1C14FFF3005C664E /* codepath-google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codepath-google.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDDC50F1C14FFF3005C664E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDDC5101C14FFF3005C664E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEDDC5121C14FFF3005C664E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEDDC5151C14FFF3005C664E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEDDC5171C14FFF3005C664E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEDDC51A1C14FFF3005C664E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEDDC5201C14FFF3005C664E /* codepath-googleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-googleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDDC5251C14FFF3005C664E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDDC5261C14FFF3005C664E /* codepath_googleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_googleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDDC5081C14FFF3005C664E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDDC51D1C14FFF3005C664E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEDDC5021C14FFF3005C664E = {
+			isa = PBXGroup;
+			children = (
+				FEDDC50D1C14FFF3005C664E /* codepath-google */,
+				FEDDC5231C14FFF3005C664E /* codepath-googleTests */,
+				FEDDC50C1C14FFF3005C664E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDDC50C1C14FFF3005C664E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDDC50B1C14FFF3005C664E /* codepath-google.app */,
+				FEDDC5201C14FFF3005C664E /* codepath-googleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDDC50D1C14FFF3005C664E /* codepath-google */ = {
+			isa = PBXGroup;
+			children = (
+				FEDDC5101C14FFF3005C664E /* AppDelegate.swift */,
+				FEDDC5121C14FFF3005C664E /* ViewController.swift */,
+				FEDDC5141C14FFF3005C664E /* Main.storyboard */,
+				FEDDC5171C14FFF3005C664E /* Images.xcassets */,
+				FEDDC5191C14FFF3005C664E /* LaunchScreen.xib */,
+				FEDDC50E1C14FFF3005C664E /* Supporting Files */,
+			);
+			path = "codepath-google";
+			sourceTree = "<group>";
+		};
+		FEDDC50E1C14FFF3005C664E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDDC50F1C14FFF3005C664E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDDC5231C14FFF3005C664E /* codepath-googleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEDDC5261C14FFF3005C664E /* codepath_googleTests.swift */,
+				FEDDC5241C14FFF3005C664E /* Supporting Files */,
+			);
+			path = "codepath-googleTests";
+			sourceTree = "<group>";
+		};
+		FEDDC5241C14FFF3005C664E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDDC5251C14FFF3005C664E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEDDC50A1C14FFF3005C664E /* codepath-google */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDDC52A1C14FFF3005C664E /* Build configuration list for PBXNativeTarget "codepath-google" */;
+			buildPhases = (
+				FEDDC5071C14FFF3005C664E /* Sources */,
+				FEDDC5081C14FFF3005C664E /* Frameworks */,
+				FEDDC5091C14FFF3005C664E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "codepath-google";
+			productName = "codepath-google";
+			productReference = FEDDC50B1C14FFF3005C664E /* codepath-google.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEDDC51F1C14FFF3005C664E /* codepath-googleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDDC52D1C14FFF3005C664E /* Build configuration list for PBXNativeTarget "codepath-googleTests" */;
+			buildPhases = (
+				FEDDC51C1C14FFF3005C664E /* Sources */,
+				FEDDC51D1C14FFF3005C664E /* Frameworks */,
+				FEDDC51E1C14FFF3005C664E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEDDC5221C14FFF3005C664E /* PBXTargetDependency */,
+			);
+			name = "codepath-googleTests";
+			productName = "codepath-googleTests";
+			productReference = FEDDC5201C14FFF3005C664E /* codepath-googleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDDC5031C14FFF3005C664E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Mario C. Delgado Jr.";
+				TargetAttributes = {
+					FEDDC50A1C14FFF3005C664E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FEDDC51F1C14FFF3005C664E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FEDDC50A1C14FFF3005C664E;
+					};
+				};
+			};
+			buildConfigurationList = FEDDC5061C14FFF3005C664E /* Build configuration list for PBXProject "codepath-google" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEDDC5021C14FFF3005C664E;
+			productRefGroup = FEDDC50C1C14FFF3005C664E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDDC50A1C14FFF3005C664E /* codepath-google */,
+				FEDDC51F1C14FFF3005C664E /* codepath-googleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDDC5091C14FFF3005C664E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDDC5161C14FFF3005C664E /* Main.storyboard in Resources */,
+				FEDDC51B1C14FFF3005C664E /* LaunchScreen.xib in Resources */,
+				FEDDC5181C14FFF3005C664E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDDC51E1C14FFF3005C664E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDDC5071C14FFF3005C664E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDDC5131C14FFF3005C664E /* ViewController.swift in Sources */,
+				FEDDC5111C14FFF3005C664E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDDC51C1C14FFF3005C664E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDDC5271C14FFF3005C664E /* codepath_googleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEDDC5221C14FFF3005C664E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEDDC50A1C14FFF3005C664E /* codepath-google */;
+			targetProxy = FEDDC5211C14FFF3005C664E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEDDC5141C14FFF3005C664E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDDC5151C14FFF3005C664E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDDC5191C14FFF3005C664E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDDC51A1C14FFF3005C664E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDDC5281C14FFF3005C664E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEDDC5291C14FFF3005C664E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEDDC52B1C14FFF3005C664E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "codepath-google/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEDDC52C1C14FFF3005C664E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "codepath-google/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEDDC52E1C14FFF3005C664E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "codepath-googleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/codepath-google.app/codepath-google";
+			};
+			name = Debug;
+		};
+		FEDDC52F1C14FFF3005C664E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "codepath-googleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/codepath-google.app/codepath-google";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDDC5061C14FFF3005C664E /* Build configuration list for PBXProject "codepath-google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDDC5281C14FFF3005C664E /* Debug */,
+				FEDDC5291C14FFF3005C664E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDDC52A1C14FFF3005C664E /* Build configuration list for PBXNativeTarget "codepath-google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDDC52B1C14FFF3005C664E /* Debug */,
+				FEDDC52C1C14FFF3005C664E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEDDC52D1C14FFF3005C664E /* Build configuration list for PBXNativeTarget "codepath-googleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDDC52E1C14FFF3005C664E /* Debug */,
+				FEDDC52F1C14FFF3005C664E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDDC5031C14FFF3005C664E /* Project object */;
+}

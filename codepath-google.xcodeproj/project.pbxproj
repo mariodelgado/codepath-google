@@ -13,6 +13,7 @@
 		FEDDC5181C14FFF3005C664E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDDC5171C14FFF3005C664E /* Images.xcassets */; };
 		FEDDC51B1C14FFF3005C664E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDDC5191C14FFF3005C664E /* LaunchScreen.xib */; };
 		FEDDC5271C14FFF3005C664E /* codepath_googleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDDC5261C14FFF3005C664E /* codepath_googleTests.swift */; };
+		FEE848C91C153E1E00DD96B6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE848C81C153E1E00DD96B6 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FEDDC5201C14FFF3005C664E /* codepath-googleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-googleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDDC5251C14FFF3005C664E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEDDC5261C14FFF3005C664E /* codepath_googleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_googleTests.swift; sourceTree = "<group>"; };
+		FEE848C81C153E1E00DD96B6 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FEDDC5101C14FFF3005C664E /* AppDelegate.swift */,
+				FEE848C81C153E1E00DD96B6 /* FeedViewController.swift */,
 				FEDDC5121C14FFF3005C664E /* ViewController.swift */,
 				FEDDC5141C14FFF3005C664E /* Main.storyboard */,
 				FEDDC5171C14FFF3005C664E /* Images.xcassets */,
@@ -156,6 +159,7 @@
 		FEDDC5031C14FFF3005C664E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Mario C. Delgado Jr.";
 				TargetAttributes = {
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDDC5131C14FFF3005C664E /* ViewController.swift in Sources */,
+				FEE848C91C153E1E00DD96B6 /* FeedViewController.swift in Sources */,
 				FEDDC5111C14FFF3005C664E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +410,7 @@
 				FEDDC52C1C14FFF3005C664E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEDDC52D1C14FFF3005C664E /* Build configuration list for PBXNativeTarget "codepath-googleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				FEDDC52F1C14FFF3005C664E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
